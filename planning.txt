@@ -1,0 +1,15 @@
+**STUDIEPLANNING VOOR AI (9 UUR)**
+
+**Doel:** Grondig bestuderen van de kernconcepten van Kunstmatige Intelligentie.
+
+*   **Maandag (3 uur):** Focus op *Theoretische Fundamenten*.
+    *   Bestudeer de basisprincipes en geschiedenis van AI. Lees hoofdstukken 1-2 grondig door. Maak conceptkaarten bij termen als 'Machine Learning' en 'Algoritmen'.
+    *   (Actief studeren: Theorie verwerken)
+*   **Dinsdag (2 uur):** Focus op *Kernconcepten & Implementatie*.
+    *   Ga in op Machine Learning. Bestudeer de verschillen tussen supervised, unsupervised en reinforcement learning. Maak een simpel voorbeeld-diagram om het verschil te visualiseren.
+    *   (Actief studeren: Vergelijking maken)
+*   **Woensdag (4 uur):** Focus op *Diepgaande Toepassing & Projectwerk*.
+    *   Gebruik dit blok voor hands-on oefeningen of de eerste stap van een projectopdracht. Werk aan codevoorbeelden of casestudy's om theoretische kennis te koppelen aan praktijk. Dit is het belangrijkste leerblok.
+    *   (Actief studeren: Praktijk en Toepassing)
+
+**Opmerking:** Reserveer Zondag voor de herhaling van de stof die deze week moeilijk was (bijvoorbeeld een korte quiz maken over de concepten).
