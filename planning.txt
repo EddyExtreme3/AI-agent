@@ -1,15 +1,37 @@
-**STUDIEPLANNING VOOR AI (9 UUR)**
+**✨ Uw Gepersonaliseerde Studierapport & Weekplan ✨**
 
-**Doel:** Grondig bestuderen van de kernconcepten van Kunstmatige Intelligentie.
+Gezien de deadlines en moeilijkheidsgraad van uw vakken heb ik een plan opgesteld dat prioriteit geeft aan het tijdig afronden van 'Data analyse' (meest directe deadline), terwijl er voldoende tijd wordt ingepland voor de complexiteit van 'AI'.
 
-*   **Maandag (3 uur):** Focus op *Theoretische Fundamenten*.
-    *   Bestudeer de basisprincipes en geschiedenis van AI. Lees hoofdstukken 1-2 grondig door. Maak conceptkaarten bij termen als 'Machine Learning' en 'Algoritmen'.
-    *   (Actief studeren: Theorie verwerken)
-*   **Dinsdag (2 uur):** Focus op *Kernconcepten & Implementatie*.
-    *   Ga in op Machine Learning. Bestudeer de verschillen tussen supervised, unsupervised en reinforcement learning. Maak een simpel voorbeeld-diagram om het verschil te visualiseren.
-    *   (Actief studeren: Vergelijking maken)
-*   **Woensdag (4 uur):** Focus op *Diepgaande Toepassing & Projectwerk*.
-    *   Gebruik dit blok voor hands-on oefeningen of de eerste stap van een projectopdracht. Werk aan codevoorbeelden of casestudy's om theoretische kennis te koppelen aan praktijk. Dit is het belangrijkste leerblok.
-    *   (Actief studeren: Praktijk en Toepassing)
+---
+### 🧠 Overzicht & Strategie
+*   **Hoogste Prioriteit:** Data Analyse (Deadline Maandag) – We pakken dit direct aan om gemoedsrust te creëren.
+*   **Grootste Focus:** AI (Moeilijkheidsgraad 5) – De tijd is gespreid over meerdere dagen om de diepe duik in het prototype en de uitleg mogelijk te maken.
+*   **Totaal Geschat Werk:** 9 uur.
 
-**Opmerking:** Reserveer Zondag voor de herhaling van de stof die deze week moeilijk was (bijvoorbeeld een korte quiz maken over de concepten).
+### 🗓️ Concrete Weekplanning
+
+**📅 Maandag (2 uur)**
+*   **Focus:** Data Analyse (Opstarten)
+*   **Doelstelling:** De structuur van de data analyse controleren en een 'checklist' maken van wat nog gemist is. *Niet proberen af te ronden, maar vaststellen waar u begint.*
+*   *Tip:* Dit zorgt ervoor dat het werk op de deadline kan worden afronden zonder stress.
+
+**📅 Dinsdag (3 uur)**
+*   **Focus:** AI (Deep Dive - Prototype en Uitleg)
+*   **Doelstelling:** De conceptuele kern van AI aanpakken. Focus 1,5 uur op het begrijpen van de *prototypestructuur*. Gebruik de resterende 1,5 uur om een 'storyboard' te maken voor de uitleg (wat moet de luisteraar horen?).
+
+**📅 Woensdag**
+*   **Focus:** Flexibel / Rustig Onderhoud
+*   (Geen vaste planning, houd dit vrij. Gebruik het indien nodig als buffer of neem rust.)
+
+**📅 Donderdag (4 uur)**
+*   **Focus 1: AI Afronding (2 uur)**
+    *   Verfijning van de AI-uitleg en het schrijven van de tekstuele uitleg die bij het prototype hoort.
+*   **Focus 2: Data Analyse Afwerking & Review (2 uur)**
+    *   Alle controles uitvoeren, kleine aanpassingen doen en de eindversie samenstellen voor inlevering maandagochtend.
+
+**📅 Vrijdag (Optioneel - Kort)**
+*   **Focus:** Licht herhaalwerk / Buffer
+*   **Doelstelling:** Geen zware taken! Gebruik deze tijd alleen als er iets heel kleins overblijft bij AI (bv. een laatste slide verfijnen) of als u behoefte heeft aan mentale afsluiting van de week.
+
+---
+**🚀 Belangrijke Opmerking:** De planning is ambitieus. Als een dag te zwaar voelt, wissel dan blokken om. Het belangrijkste is dat zowel Data Analyse (vóór maandag) als AI (geactiveerd op dinsdag) voldoende tijd krijgen!
