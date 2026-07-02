@@ -11,7 +11,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
 
-MODEL_NAME = "qwen2.5-vl-3b-instruct"
+MODEL_NAME = "qwen2.5vl:3b" # Adjusted to match the standard local runner tag format
 PLANNING_FILE = Path("planning.txt")
 TOKEN_FILE = Path("token.json")
 
@@ -46,7 +46,6 @@ def maak_planning_met_ai(vakken: str, tijdslots: str) -> dict:
 Je bent een studieplanner.
 
 BELANGRIJK:
-
 Geef ALLEEN geldige JSON terug.
 
 Begin NOOIT met:
@@ -64,8 +63,8 @@ Gebruik exact dit formaat:
     {
       "titel": "...",
       "beschrijving": "...",
-      "start": "2026-06-20T13:00:00",
-      "einde": "2026-06-20T15:00:00"
+      "start": "2026-07-03T13:00:00",
+      "einde": "2026-07-03T15:00:00"
     }
   ]
 }
@@ -107,7 +106,7 @@ def verstuur_planning_per_mail(ontvanger_email: str):
     bericht["To"] = ontvanger_email
     bericht["Subject"] = "Jouw studieplanning"
     bericht.set_content(
-        "Hoi,\n\nIn de bijlage staat jouw studieplanning.\n\nGroetjes,\nSlimme Studie-Agent"
+        "Hoi,\n\nIn de bijlage staat jouw studieplanning.\n\nGroetjes,\nSlimme-Studie-Agent"
     )
 
     bericht.add_attachment(
@@ -177,6 +176,7 @@ if knop:
     if not email or not vakken or not tijdslots:
         st.error("Vul alle velden in.")
     else:
+        # --- FIXED INDENTATION: Everything below here now lives safely inside the 'else' block ---
         with st.spinner("🤖 Agent maakt je planning..."):
             resultaat = maak_planning_met_ai(vakken, tijdslots)
 
@@ -188,20 +188,21 @@ if knop:
         st.success("✅ Planning gemaakt en opgeslagen als planning.txt")
         st.text_area("Jouw planning", planning_tekst, height=400)
 
-    with st.spinner("📅 Planning wordt in Google Calendar gezet..."):
-        st.write("Calendar events:")
-        st.json(calendar_events)
+        with st.spinner("📅 Planning wordt in Google Calendar gezet..."):
+            st.write("Calendar events:")
+            st.json(calendar_events)
 
-        if calendar_events:
-            zet_planning_in_google_calendar(calendar_events)
-            st.success("✅ Planning toegevoegd aan Google Calendar")
-        else:
-            st.error("❌ Geen calendar events gevonden. Er is dus niets in Google Calendar gezet.")
+            if calendar_events:
+                zet_planning_in_google_calendar(calendar_events)
+                st.success("✅ Planning toegevoegd aan Google Calendar")
+            else:
+                st.error("❌ Geen calendar events gevonden. Er is dus niets in Google Calendar gezet.")
 
         with st.spinner("📧 Planning wordt per mail verstuurd..."):
             verstuur_planning_per_mail(email)
 
         st.success("✅ Planning is per mail verstuurd")
 
-
-        # voorbeeld input: 
+# Voorbeeld Input voor testen:
+# Vakken: "Machine Learning, deadline 2026-07-10, moeilijkheid 5. SQL Basis, deadline 2026-07-12, moeilijkheid 2."
+# Tijdslots: "Zaterdag van 10:00 tot 14:00, Zondag van 13:00 tot 17:00"
