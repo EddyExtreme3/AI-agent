@@ -11,7 +11,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
 
-MODEL_NAME = "qwen2.5vl:3b" # Adjusted to match the standard local runner tag format
+MODEL_NAME = "qwen2.5-vl-3b-instruct"
 PLANNING_FILE = Path("planning.txt")
 TOKEN_FILE = Path("token.json")
 
